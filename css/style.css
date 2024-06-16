@@ -25,6 +25,10 @@
   font-size: 12px;
   color: #ffffff;
 }
+.header-contact__btn:hover{
+  transition: 0.3s;
+  color:#333;
+}
 /* top */
 .section-top__images{
   background-image: url("../img/keyvisual/keyvisual.jpg");
@@ -40,12 +44,13 @@
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 .section-top__title-subtitle{
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
+  margin: 0 auto;
 }
 /* work */
 .section-work{
@@ -105,12 +110,16 @@
   width: 300px;
   height: 300px;
   padding-right: 100px;
+  opacity: 0.7;
 }
 .section-skills-contents ul li:last-child{
   padding-right: 0px;
 }
 .section-skills-contents ul li img{
   width: 100%;
+}
+.section-skills-contents ul li:hover{
+  opacity: 1.0;
 }
 /* plan */
 .section-plan{
@@ -183,6 +192,10 @@
 .section-sns-wrapper__images{
   width: 185px;
   padding: 25px 0;
+}
+.section-sns-wrapper__images:hover{
+  transition: 0.5s;
+  background-color:#fff;
 }
 /* footer */
 .footer{
